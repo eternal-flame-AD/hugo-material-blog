@@ -1,4 +1,4 @@
-<span class="grey-text text-darken-4">{{ .Site.Copyright }}</span>
+<span class="grey-text text-darken-4">{{ .Site.Copyright | markdownify  }}</span>
 <div class="right">
     {{ partial "language-selector" . }}
 </div>
